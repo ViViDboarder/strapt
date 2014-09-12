@@ -2,4 +2,4 @@
 
 echo "Installing something..."
 
-ln -s ./resources/strappit ~/bin/strappit
+ln -s "$(dirname $0)/resources/strappit" ~/bin/strappit
